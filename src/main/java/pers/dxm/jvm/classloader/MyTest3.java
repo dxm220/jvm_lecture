@@ -10,7 +10,7 @@ public class MyTest3 {
 }
 
 class Test1 {
-    public static String s = "hello world";
+    public final static String s = "hello world";
 
     static {
         System.out.println("This is Test1");
